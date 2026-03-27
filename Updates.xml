@@ -1,0 +1,75 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>BaseLib</Name>
+  <DisplayName>PDA-IDExpert</DisplayName>
+  <Description>PDA-IDExpert，PDA-IDExpert 包含了 PDA 系统所有前后端共用的基础组件库，必须安装更新。</Description>
+  <Version>5.0.1.5658</Version>
+  <ReleaseDate>2026-03-27 09:09:27</ReleaseDate>
+  <RequiresAdminRights>true</RequiresAdminRights>
+  <Script>installscript.qs</Script>
+  <Default>true</Default>
+  <SortingPriority>80</SortingPriority>
+  <UpdateFile CompressedSize="43508544" OS="Any" UncompressedSize="86873549"/>
+  <DownloadableArchives>BaseLib.7z,content.7z</DownloadableArchives>
+  <UserInterfaces>targetwidget.ui</UserInterfaces>
+  <SHA1>4a6c00f557599b135fba200d99326d8cf7aabfce</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>BaseLib.IDExpert</Name>
+  <DisplayName>IDExpert</DisplayName>
+  <Description>Intergrated Data Expert，集成数据专家是 PDA 系统的前端软件，可以对多个 PDA 采集服务进行集中监视、配置与管理，也集成了数据建模、数据分析和处理功能。可以和 PMS Service 采集服务运行在同一台计算机上，也可以单独部署。</Description>
+  <Version>5.0.1.5658</Version>
+  <ReleaseDate>2026-03-27 09:09:27</ReleaseDate>
+  <Default>true</Default>
+  <Dependencies>BaseLib</Dependencies>
+  <RequiresAdminRights>true</RequiresAdminRights>
+  <Script>installscript.qs</Script>
+  <SortingPriority>70</SortingPriority>
+  <UpdateFile CompressedSize="18563613" OS="Any" UncompressedSize="54071819"/>
+  <DownloadableArchives>IDExpert.7z</DownloadableArchives>
+  <Licenses>
+   <License file="IDE-license.txt" name="IDExpert安装协议"/>
+  </Licenses>
+  <SHA1>69aec3934119d4abe5d3f4d3ad6870562af89991</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>BaseLib.PMSService</Name>
+  <DisplayName>PMSService</DisplayName>
+  <Description>Process Measurement Service，PMSService 是 PDA 系统的核心采集服务组件，集成了高速过程数据采集、记录、分发以及多种采集接口驱动。</Description>
+  <Version>5.0.1.5658</Version>
+  <ReleaseDate>2026-03-27 09:09:27</ReleaseDate>
+  <Default>true</Default>
+  <Dependencies>BaseLib</Dependencies>
+  <RequiresAdminRights>true</RequiresAdminRights>
+  <Script>installscript.qs</Script>
+  <SortingPriority>60</SortingPriority>
+  <UpdateFile CompressedSize="13153424" OS="Any" UncompressedSize="45576873"/>
+  <DownloadableArchives>Agent.7z,Server.7z</DownloadableArchives>
+  <Licenses>
+   <License file="PMSService-license.txt" name="PMSService安装协议"/>
+  </Licenses>
+  <SHA1>ddb241a39462e66e38d77940e5bda7b3acc7a7d6</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>maintenancetool</Name>
+  <DisplayName>Maintenancetool</DisplayName>
+  <Description>用于软件维护与更新</Description>
+  <Version>5.0.1.5658</Version>
+  <ReleaseDate>2026-03-27 09:09:27</ReleaseDate>
+  <RequiresAdminRights>true</RequiresAdminRights>
+  <Script>installscript.qs</Script>
+  <Essential>true</Essential>
+  <Virtual>true</Virtual>
+  <ForcedInstallation>true</ForcedInstallation>
+  <ForcedUpdate>true</ForcedUpdate>
+  <SortingPriority>90</SortingPriority>
+  <UpdateFile CompressedSize="12197058" OS="Any" UncompressedSize="33577171"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>d010ce4806275f91f856c669b6f82026ef967126</SHA1>
+ </PackageUpdate>
+ <SHA1>b005f64081e507482346986dc014a8dfab8bebe5</SHA1>
+ <MetadataName>2026-03-27-0931_meta.7z</MetadataName>
+</Updates>
