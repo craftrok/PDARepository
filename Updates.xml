@@ -6,59 +6,59 @@
   <Name>BaseLib</Name>
   <DisplayName>PDA-IDExpert</DisplayName>
   <Description>PDA-IDExpert，PDA-IDExpert 包含了 PDA 系统所有前后端共用的基础组件库，必须安装更新。</Description>
-  <Version>5.1.1.5992</Version>
-  <ReleaseDate>2026-06-01 17:43:54</ReleaseDate>
+  <Version>5.2.0.6105</Version>
+  <ReleaseDate>2026-06-25 15:31:07</ReleaseDate>
   <RequiresAdminRights>true</RequiresAdminRights>
   <Script>installscript.qs</Script>
   <Default>true</Default>
   <SortingPriority>80</SortingPriority>
-  <UpdateFile CompressedSize="43513585" OS="Any" UncompressedSize="86873549"/>
+  <UpdateFile CompressedSize="43516101" OS="Any" UncompressedSize="86873549"/>
   <DownloadableArchives>BaseLib.7z,content.7z</DownloadableArchives>
   <UserInterfaces>targetwidget.ui</UserInterfaces>
-  <SHA1>d833486d229ce3cc5e94a7905061fcae683e1dbf</SHA1>
+  <SHA1>3961b3df6861d7c3e6b2ed02287a1a6e7b67061c</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>BaseLib.IDExpert</Name>
   <DisplayName>IDExpert</DisplayName>
   <Description>Intergrated Data Expert，集成数据专家是 PDA 系统的前端软件，可以对多个 PDA 采集服务进行集中监视、配置与管理，也集成了数据建模、数据分析和处理功能。可以和 PMS Service 采集服务运行在同一台计算机上，也可以单独部署。</Description>
-  <Version>5.1.1.5992</Version>
-  <ReleaseDate>2026-06-01 17:43:54</ReleaseDate>
+  <Version>5.2.0.6105</Version>
+  <ReleaseDate>2026-06-25 15:31:07</ReleaseDate>
   <Default>true</Default>
   <Dependencies>BaseLib</Dependencies>
   <RequiresAdminRights>true</RequiresAdminRights>
   <Script>installscript.qs</Script>
   <SortingPriority>70</SortingPriority>
-  <UpdateFile CompressedSize="20966045" OS="Any" UncompressedSize="61889230"/>
+  <UpdateFile CompressedSize="23512217" OS="Any" UncompressedSize="65321915"/>
   <DownloadableArchives>IDExpert.7z</DownloadableArchives>
   <Licenses>
    <License file="IDE-license.txt" name="IDExpert安装协议"/>
   </Licenses>
-  <SHA1>93446ada4b00ca8b632492c52264be338cb8bcfe</SHA1>
+  <SHA1>f253fe1b1589758a50d3d6ca244c7d375f39b7c0</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>BaseLib.PMSService</Name>
   <DisplayName>PMSService</DisplayName>
   <Description>Process Measurement Service，PMSService 是 PDA 系统的核心采集服务组件，集成了高速过程数据采集、记录、分发以及多种采集接口驱动。</Description>
-  <Version>5.1.1.5992</Version>
-  <ReleaseDate>2026-06-01 17:43:54</ReleaseDate>
+  <Version>5.2.0.6105</Version>
+  <ReleaseDate>2026-06-25 15:31:07</ReleaseDate>
   <Default>true</Default>
   <Dependencies>BaseLib</Dependencies>
   <RequiresAdminRights>true</RequiresAdminRights>
   <Script>installscript.qs</Script>
   <SortingPriority>60</SortingPriority>
-  <UpdateFile CompressedSize="13557267" OS="Any" UncompressedSize="47472985"/>
+  <UpdateFile CompressedSize="13555901" OS="Any" UncompressedSize="47463257"/>
   <DownloadableArchives>Agent.7z,Server.7z</DownloadableArchives>
   <Licenses>
    <License file="PMSService-license.txt" name="PMSService安装协议"/>
   </Licenses>
-  <SHA1>9b68c0cfa77e3b171ececb044fcdfd18737d13de</SHA1>
+  <SHA1>4bd9472e206b3db083fee6b39cac4dd29da03811</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>maintenancetool</Name>
   <DisplayName>Maintenancetool</DisplayName>
   <Description>用于软件维护与更新</Description>
-  <Version>5.1.1.5992</Version>
-  <ReleaseDate>2026-06-01 17:43:54</ReleaseDate>
+  <Version>5.2.0.6105</Version>
+  <ReleaseDate>2026-06-25 15:31:07</ReleaseDate>
   <RequiresAdminRights>true</RequiresAdminRights>
   <Script>installscript.qs</Script>
   <Essential>true</Essential>
@@ -66,10 +66,10 @@
   <ForcedInstallation>true</ForcedInstallation>
   <ForcedUpdate>true</ForcedUpdate>
   <SortingPriority>90</SortingPriority>
-  <UpdateFile CompressedSize="12195358" OS="Any" UncompressedSize="33575529"/>
+  <UpdateFile CompressedSize="12197530" OS="Any" UncompressedSize="33573259"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>22cd5d8450a15126edebe70d691c0671c74625d4</SHA1>
+  <SHA1>062a9f573533927e4a2c495d4eb0bc76d14e6ccf</SHA1>
  </PackageUpdate>
- <SHA1>487f29a6465ee2888b0e4400924fe897d53abd63</SHA1>
- <MetadataName>2026-06-01-1806_meta.7z</MetadataName>
+ <SHA1>9dc631af03692e1a82963ea6cdf3c9e7a0d7b283</SHA1>
+ <MetadataName>2026-06-27-1635_meta.7z</MetadataName>
 </Updates>
